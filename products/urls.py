@@ -16,6 +16,6 @@ urlpatterns = [
     # 'views.index' is p a reference to the index function
     # Note, not calling 'views.index' 'cause Django handles it
     path('', views.index),
-    path('new_page_web_page1', views.new_page_web_page1),
+    path('new_web_page1', views.new_web_page1),
     path('new', views.new),
 ]

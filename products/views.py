@@ -13,7 +13,7 @@ def index(request):
     return render(request, 'index.html', {'products': products})
 
 
-def new_page_web_page1(request):
+def new_web_page1(request):
     return HttpResponse('New page 1!!!')
 
 
