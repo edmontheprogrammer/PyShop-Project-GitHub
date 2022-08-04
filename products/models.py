@@ -16,6 +16,6 @@ class Product(models.Model):
 # - create a migration to update the database
 # and make the changes
 class Offer(models.Model):
-    code = models.CharField(max_length=255)
-    description = models.CharField(max_length=600)
-    discount = models.FloatField(max_length=2)
+    code = models.CharField(max_length=10)
+    description = models.CharField(max_length=255)
+    discount = models.FloatField()
